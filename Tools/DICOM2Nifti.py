@@ -9,6 +9,6 @@ def dicomfile2nifti(input_path,save_path):
 
 if __name__ == "__main__":
 ####———————————————— Test 1————————————————————————
-    input_path = r'G:\DICOM\PETnew'
-    save_path = r'G:\DICOM\PETnew'
+    input_path = r'F:\LabRoom\9LiverAndSeg\ZS15127160\SE01'
+    save_path = r'F:\LabRoom\9LiverAndSeg\ZS15127160\SE01/'
     dicomseries2nifti(input_path,save_path)
